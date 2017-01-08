@@ -29,3 +29,10 @@ Roles provide logical grouping of cookbooks and other roles. A sample role can b
 Getting Started
 -------------------------
 Now that you have the chef-repo ready to go, check out [Learn Chef](https://learn.chef.io/) to proceed with your workstation setup. If you have any questions about Chef you can always ask [our support team](https://www.chef.io/support/) for a helping hand.
+WARN: This command is being deprecated in favor of `chef generate cookbook` and will soon return an error.
+Please use `chef generate cookbook` instead of this command.
+ at /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.17.44/lib/chef/knife.rb:443:in `block in run_with_pretty_exceptions'
+** Creating cookbook learnecho in /home/user/chef-repo/cookbooks
+** Creating README for cookbook: learnecho
+** Creating CHANGELOG for cookbook: learnecho
+** Creating metadata for cookbook: learnecho
